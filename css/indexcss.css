@@ -617,7 +617,7 @@ cursor: pointer;
 {
     width: 100%;
      height: 250px;
-    background: url(.//img/logo/backgroundimage.png); 
+    background: url(../img/logo/backgroundimage.png); 
     margin: 50px 0px;
 }
 .backgroundkimcuong__wrap
