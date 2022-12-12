@@ -79,6 +79,7 @@ a
 .header__mid__main
 {
     display: flex;
+    justify-content: space-between;
 }
 .header__mid__main__logo 
 {
@@ -974,6 +975,107 @@ cursor: pointer;
 {
     color: #fff;
 }
+
+
+
+
+
+/*------------------------------------------------------- R E P O N S I V E ---------------------------------------------------------*/
+@media screen and (max-width:1700px)
+{
+    .header__top__wrap
+    {
+        width: 1000px;
+    }
+    .header__mid__wrap
+    {
+        max-width: 1000px;
+    }
+    .mr58px
+    {
+        margin-right: 28px;
+    }
+    .header__mid__main__search
+    {
+        max-width: 250px;
+    }
+    .header__mid__main__search__input input
+    {
+        width: 170px;
+    }
+    .header__mid__main__search__input::after
+    {
+        width: 38px;
+    }
+    .header__mid__main__search__icon
+    {
+        width: 38px;
+        font-size: 22px;
+        color: var(--white);
+    }
+    .header__mid__main__login
+    {
+        max-width: 180px;
+        height: 120px;
+    }
+    .heaer__mid__main__login__signin,.header__mid__main__login__signup
+    {
+        width: 90px;
+        height: 35px;
+    }
+    .header__bottom__wrap
+    {
+        max-width: 1000px;
+    }
+    .header__bottom__menu ul li a
+    {
+        padding: 8.6px 25px;
+    }
+    .slideshow-container
+    {
+        max-width: 1000px;
+    }
+    .container__wrap
+    {
+        width: 1000px;
+    }
+    .container__content__layout__right
+    {
+        display: none;
+    }
+    .container__content__layout
+    {
+        display: block;
+    }
+    .container__content__layout__left
+    {
+        grid-gap: 30px;
+        margin: 0 auto;
+    }
+    .container__content__product1__listproduct
+    {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width:1200px)
+{
+    .slideshow-container
+    {
+        max-width: 900px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:500px)
 {
